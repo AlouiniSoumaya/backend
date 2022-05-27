@@ -6,6 +6,5 @@ exports.createTask = async (req,res) => {
         
     } catch (error) {
         return res.status(500).send({msg:error.msg})
-        
     }
 }
